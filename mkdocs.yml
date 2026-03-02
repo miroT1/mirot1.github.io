@@ -1,0 +1,21 @@
+site_name: PY_REPORT
+site_author: tro
+site_url: https://python-report.com
+site_description: Report on completed laboratory work
+repo_url: https://github.com/miroT1/MIRON/
+edit_uri: ""
+
+
+
+theme:
+    name: bootstrap
+    locale: en
+#bootstrap
+
+nav:
+  - Главная: index.md
+
+
+
+extra_css:
+  - stylesheets/extra.css
