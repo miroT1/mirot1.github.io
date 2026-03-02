@@ -1,20 +1,25 @@
-# 👨‍💻 Лю Цинь Фень
-### Backend Developer / Python Developer
+# Петров Мирон 
+### Студент университета ИТМО
 
 ---
 
-## 📋 Quick Info
-- Job Title: Middle Python Developer
-- Experience: 3+ years
-- Location: Moscow / Remote
-- Availability: Considering offers
+## Info
+- Направление: Нейротехнологии и программирование
+- Дата начала обучения: 2025
+- Город: Санкт-Петербург
 
-## 🛠 Technical skills
 
-skills = {
+## Skills
 
-    "Languages": ["Python", "JavaScript", "SQL"],
-    "Frameworks": ["Django", "FastAPI", "Flask"],
-    "Databases": ["PostgreSQL", "Redis", "MongoDB"],
-    "Tools": ["Docker", "Git", "AWS", "CI/CD"]
-}
+Языки:  
+
+    [Python, C++]
+
+Фреймфорки/Библиотеки: 
+    
+    [Django, NumPy, Matplotlib, Seaborn, Pandas ]
+    
+Инстументы: 
+    
+    [Git, CodeWars]
+
