@@ -10,18 +10,19 @@ site_dir: docs
 
 
 theme:
-    name: material #bootstrap
+    name: material
     next_previous: false
 
 
 nav:
   - Главная: index.md
   - Автор: author.md
-  - Проекты:
-    - Лабораторные ИТМО:
-      - Лабы питон:
-        - Лаба 12: lub_12.md
-        - Лаба 13: lub_13.md
+  - Лабораторные ИТМО:
+    - Лабораторная 1: lub_12.md
+    - Лабораторная 2: lub_13.md
+    - Лабораторная 3: lub_14.md
+    - Лабораторная 4: lub_15.md
+    - Лабораторная 5: lub_16.md
 
 
 
