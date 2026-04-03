@@ -14,13 +14,10 @@ workflows:
             script:
               - python -m pip install --upgrade pip
               - "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
-              - cd ./src && mkdocs build -d ../docs
-              - echo "Сайт собран в папке ../docs"
-              - ls -la ../docs
-
-          - name: publish-to-release-branch
-            script:
-              - git checkout -b release
-              - git add ./docs
-              - "git commit -m \"feat: автоматическое обновление сайта\""
-              - "git push origin release -f"
+              # Убрали cd ./src, так как mkdocs.yml в корне
+              # Если в mkdocs.yml уже указано site_dir: docs, то можно просто:
+              - mkdocs build
+              # Если нет — явно укажем:
+              # - mkdocs build -d docs
+              - echo "Сайт собран в папке docs"
+              - ls -la docs
