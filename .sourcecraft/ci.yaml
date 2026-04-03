@@ -13,6 +13,7 @@ workflows:
             image: docker.io/library/python:3.13-slim
             script:
               - python -m pip install --upgrade pip
+              - pip install mkdocs-material
               - "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
               # Убрали cd ./src, так как mkdocs.yml в корне
               # Если в mkdocs.yml уже указано site_dir: docs, то можно просто:
