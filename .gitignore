@@ -3,3 +3,6 @@ site/
 __pycache__/
 *.pyc
 .idea/
+requiment.txt
+.github/
+.soucecraft/

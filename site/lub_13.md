@@ -37,3 +37,5 @@
 
 ### Результат работы:
 [Гит Хаб](https://github.com/miroT1/numpy_lab)
+
+
